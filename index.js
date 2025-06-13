@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5500
 app.use(express.json()); // Parse JSON body
 
 // MongoDB
-const MONGODB_URL = "mongodb+srv://judedev:Jude294gpngo@cluster0.i8vbsdc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const MONGODB_URL = "mongodb+srv://judedev:<Password>@cluster0.i8vbsdc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 // Connecting to MongoDB
 
